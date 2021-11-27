@@ -12,7 +12,7 @@ def start(message):
 @bot.message_handler(commands=['help'])
 def start_message(message):
     bot.send_message(message.chat.id, 'Я умею отправлять ссылку на официальный сайт МТУСИ, на расписание занятий '
-                                      'БВТ2106, на домашнее задание, на новости ')
+                                      'БВТ2106, на домашнее задание, на новости и показывать логотип МТУСИ ')
 
 @bot.message_handler(commands=['news'])
 def start_message_1(message):
